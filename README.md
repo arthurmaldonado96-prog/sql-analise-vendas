@@ -1,11 +1,22 @@
-# sql-analise-vendas
-Análise de vendas utilizando Microsoft SQL Server
+# SQL - Análise de Vendas
 
-Base de dados: Microsoft SQL Server
-Ferramenta: SQL Server Management Studio
-Conceitos aplicados:
-- JOIN
-- CTE
-- Função de janela
-- Funções de agregação
-- Métricas de negócios
+## Objetivo
+Explorar dados de vendas para gerar métricas de negócio
+como receita total e crescimento mensal.
+
+## Tecnologias
+- Microsoft SQL Server
+- SQL Server Management Studio
+- GitHub
+
+## Métricas Desenvolvidas
+- Receita Total
+- Receita Mensal
+- Crescimento Mês a Mês (Window Function)
+
+## 📂 Estrutura
+sql/
+├── 01_criacao_tabelas.sql
+├── 02_inserts.sql
+└── 03_metricas.sql
+
