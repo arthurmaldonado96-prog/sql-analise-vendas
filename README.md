@@ -16,7 +16,7 @@ como receita total e crescimento mensal.
 
 ## 📂 Estrutura
 sql/
-├── 01_criacao_tabelas.sql
-├── 02_inserts.sql
-└── 03_metricas.sql
+ 01_criacao_tabelas.sql
+ 02_inserts.sql
+ 03_metricas.sql
 
