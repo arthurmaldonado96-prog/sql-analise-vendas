@@ -28,7 +28,7 @@ CREATE TABLE fVendas (
     id_venda INT PRIMARY KEY,
     id_cliente INT,
     id_produto INT,
-    data_venda DATETIME,
+    data_venda DATE,
     quantidade INT,
     FOREIGN KEY (id_cliente) REFERENCES dClientes(id_cliente),
     FOREIGN KEY (id_produto) REFERENCES dProdutos(id_produto)
